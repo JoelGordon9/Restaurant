@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href=".\contact_Style.css" type="text/css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type = "text/javascript" src ="./script.js"></script>
+		<link rel = "icon" type = "img/ico" href =".\Pictures\arkenstone.png">
+		<title>Lonely Mountain Brewery</title>
+		<meta name = "keywords" content = "Lonely Mountain Brewery", "Food", "Resteraunt", "Feast", "Contact", "Location", "hours">
+		<meta name = "Description" content = "MainPage for the Lonely Mountain Brewery">
+		<meta name = "author" content "Joel Gordon">
+	</head>
+	
+	<body>
+		<ul class = "navBar">
+			<a href = "./Main.html"><li id = "home" class = "navMenu">Home</li></a>
+			<a href = "./menu.html"><li id = "menu" class="navMenu">Menu</li></a>
+			<a href = "./contact.html"><li id = "contact" class="navMenu">Location/Contact</li></a>
+		</ul>
+		
+		<div id = "body_div">
+			<pre>
+			
+			
+			
+			</pre>
+			<h3>Contact Info</h3>
+			<p>Phone: 309-831-8410</p>
+			<p>Address: 501 Buckland Rd, Hinuera, Matamata 3472, New Zealand</p>
+			<p>Email: <a href = "mailto:JoelGordon9@gmail.com">JoelGordon9@gmail.com</a></p>
+			
+			<div id="map"></div>
+			<script>
+			  function initMap() {
+				var uluru = {lat: -37.8719535, lng: 175.6832105};
+				var map = new google.maps.Map(document.getElementById('map'), {
+				  zoom: 12,
+				  center: uluru
+				});
+				var marker = new google.maps.Marker({
+				  position: uluru,
+				  map: map
+				});
+			  }
+			</script>
+			<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTBy8vTWybQ0Bfa5Wyl0gYlIZ0dYBc9NE&callback=initMap">
+</script>
+			<p class = "head">
+			Hours:<br>
+			</p>
+			<p class = "day">
+			Monday-Friday:<br>
+			</p>
+			<p>
+				Lunch: 12pm<br>
+				Dinner: 6pm<br>
+			</p>
+			<p class = "day">
+			Saturday:<br>
+			</p>
+			<p>
+				Lunch: 12pm<br>
+				Dinner: 6pm<br>
+				Second Dinner: 10pm<br>
+			</p>
+			<p class = "day">
+			Sunday: Closed<br>
+			</p>
+			<p class = "day">
+			Brewery Hours<br>
+			</p>
+			<p>
+			Monday-Friday: 4pm - 10pm<br>
+			Saturday: 4pm - 12pm<br>
+			</p>
+			
+		</div>
+	
+	</body>
+	
+</html>	
