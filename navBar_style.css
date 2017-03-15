@@ -1,0 +1,68 @@
+#banner {
+	text-align: center;
+	min-width: 100%;
+	background-image: url('./Pictures/paper_texture.jpg');
+	background-position: center;
+	margin: 0;
+	border-color: black;
+	border-style: groove;
+	position: fixed;
+	top: 0;
+	padding: 0;
+}
+
+.navBar {
+	display: inline-block;
+	margin: 0;
+	list-style-type: none;
+}
+
+.navMenu {
+	Background-color: rgb(226, 213, 183);
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: .5em;
+	padding-top: .5em;
+	max-width: 10em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+#title{
+	display: inline-block;
+	width: 15%;
+	margin: 0;
+	position: relative;
+	top: .5em;
+	right: 4em;
+	font-size: 20px;
+}
+
+#facebook{
+	max-width: 40px;
+	max-height: 40px;
+}
+
+#linkedIn{
+	max-width: 40px;
+	max-height: 40px;
+}
+#socialMedia{
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: .0em;
+	padding-top: 0em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+
+	display: inline-block;
+	width: 15%;
+	position: relative;
+	top: 1em;
+	left: 4em;
+}
+

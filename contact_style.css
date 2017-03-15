@@ -9,35 +9,6 @@ html{
 }
 a{color: black;}
 
-.navBar {
-	text-align: center;
-	min-width: 100%;
-	background-image: url('./Pictures/paper_texture.jpg');
-	background-position: center;
-	list-style-type: none;
-	margin: 0;
-	border-color: black;
-	border-style: groove;
-	position: fixed;
-	top: 0;
-	z-index: 1;
-}
-
-.navMenu {
-	Background-color: rgb(226, 213, 183);
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-bottom: .5em;
-	padding-top: .5em;
-	max-width: 10em;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	margin-left: 2em;
-	margin-right: 2em;
-	display: inline-block;
-	border: 1px solid black;
-}
-
 #body_div{
 	width: 80%;
 	background-image: url('./Pictures/paper_texture3.jpg');
@@ -72,4 +43,3 @@ h3{
 	font-weight: bold;
 	text-decoration: underline;
 }
-
