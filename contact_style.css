@@ -43,3 +43,9 @@ h3{
 	font-weight: bold;
 	text-decoration: underline;
 }
+
+#contactForm{
+	text-align: left;
+	margin-left: 20em;
+	margin-bottom: 2em;
+}
