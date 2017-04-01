@@ -1,7 +1,7 @@
 #banner {
 	text-align: center;
 	min-width: 100%;
-	background-image: url('./Pictures/paper_texture.jpg');
+	background-image: url('../Pictures/paper_texture.jpg');
 	background-position: center;
 	margin: 0;
 	border-color: black;
